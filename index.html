@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Assignment 6 - jQuery Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- My JavaScript file -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <header>
+            <h1 id="mainTitle">Yerkezhan Vassenzhan</h1>
+
+            <p class="headline">
+                Web Technologies Student
+            </p>
+
+            <p class="intro">
+                Hello! I am a student at Astana IT University and I am currently learning web development.
+            </p>
+
+            <button id="lightButton">Light Theme</button>
+            <button id="darkButton">Dark Theme</button>
+        </header>
+
+
+        <!-- Task 1 -->
+        <section class="section">
+            <h2>Welcome to My Portfolio</h2>
+
+            <p id="greeting">
+                Welcome to my personal jQuery portfolio!
+            </p>
+        </section>
+
+
+        <!-- Task 2 -->
+        <section class="section">
+            <h2>About Me</h2>
+
+            <p>
+                I am interested in programming, web development and technology.
+            </p>
+
+            <p id="status">
+                Currently learning jQuery!
+            </p>
+
+            <div id="funFacts">
+                <h3>Fun Facts</h3>
+
+                <ul>
+                    <li>I enjoy listening to music.</li>
+                    <li>I like watching Korean dramas.</li>
+                    <li>I am learning programming.</li>
+                </ul>
+            </div>
+
+            <button id="hideButton">Hide</button>
+            <button id="showButton">Show</button>
+            <button id="toggleButton">Toggle</button>
+        </section>
+
+
+        <!-- Task 3 -->
+        <section class="section">
+            <h2>My Gallery</h2>
+
+            <div class="gallery">
+
+                <div class="image-box">
+                    <img
+                        id="image1"
+                        src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=600&q=80"
+                        alt="Coffee"
+                    >
+                </div>
+
+                <div class="image-box">
+                    <img
+                        id="image2"
+                        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80"
+                        alt="Laptop"
+                    >
+                </div>
+
+            </div>
+
+            <button id="fadeOutButton">Fade Out</button>
+            <button id="fadeInButton">Fade In</button>
+            <button id="fadeToggleButton">Fade Toggle</button>
+        </section>
+
+
+        <!-- Task 4 -->
+        <section class="section">
+            <h2>My Favorites</h2>
+
+            <h3 class="slideTitle">My Favorite Music</h3>
+            <div class="slideContent">
+                <p>I enjoy listening to different types of music.</p>
+            </div>
+
+            <h3 class="slideTitle">My Favorite Movie</h3>
+            <div class="slideContent">
+                <p>I enjoy watching movies and Korean dramas.</p>
+            </div>
+
+            <h3 class="slideTitle">My Favorite Subject</h3>
+            <div class="slideContent">
+                <p>My favorite subjects are related to programming and web development.</p>
+            </div>
+
+            <button id="slideUpButton">Slide Up All</button>
+            <button id="slideDownButton">Slide Down All</button>
+        </section>
+
+
+        <!-- Task 5 -->
+        <section class="section">
+            <h2>My Technical Skills</h2>
+
+            <ul id="skillList">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>C++</li>
+            </ul>
+
+            <input
+                type="text"
+                id="newSkill"
+                placeholder="Enter a new skill"
+            >
+
+            <br>
+
+            <button id="addSkillButton">Add Skill</button>
+            <button id="prependSkillButton">Prepend Skill</button>
+            <button id="removeSkillButton">Remove Skill</button>
+        </section>
+
+
+        <!-- Task 6 -->
+        <section class="section">
+            <h2>Social Media Link</h2>
+
+            <a
+                id="socialLink"
+                href="https://github.com"
+                target="_blank"
+            >
+                Visit My Social Link
+            </a>
+
+            <br><br>
+
+            <button id="changeLinkButton">
+                Change Link to LinkedIn
+            </button>
+        </section>
+
+
+        <!-- Task 7 -->
+        <section class="section">
+            <h2>Live Form Preview</h2>
+
+            <label for="liveName">Name:</label>
+            <input type="text" id="liveName">
+
+            <label for="liveEmail">Email:</label>
+            <input type="email" id="liveEmail">
+
+            <h3>Your Information:</h3>
+
+            <p>
+                Name:
+                <span id="nameOutput"></span>
+            </p>
+
+            <p>
+                Email:
+                <span id="emailOutput"></span>
+            </p>
+        </section>
+
+
+        <!-- Task 8 -->
+        <section class="section">
+            <h2>My Skill Levels</h2>
+
+            <div class="skill">
+                <p>HTML</p>
+                <div class="skillBackground">
+                    <div class="skillBar" id="htmlBar"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>CSS</p>
+                <div class="skillBackground">
+                    <div class="skillBar" id="cssBar"></div>
+                </div>
+            </div>
+
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="skillBackground">
+                    <div class="skillBar" id="jsBar"></div>
+                </div>
+            </div>
+
+            <button id="animateButton">
+                Animate My Skills
+            </button>
+        </section>
+
+
+        <footer>
+            <p>© 2026 Yerkezhan Vassenzhan | Assignment 6</p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>

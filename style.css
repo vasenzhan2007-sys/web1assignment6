@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #dbeafe;
+    padding: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #1f3c88;
+}
+
+h2 {
+    color: #1f3c88;
+}
+
+.section {
+    background-color: white;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+}
+
+button {
+    background-color: #1f3c88;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e11d48;
+}
+
+input {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    margin: 8px 0 10px 0;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.image-box {
+    width: 50%;
+}
+
+.gallery img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.slideTitle {
+    background-color: #dbeafe;
+    padding: 12px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.slideContent {
+    background-color: #f8fafc;
+    padding: 15px;
+    display: none;
+}
+
+.skillBackground {
+    width: 100%;
+    height: 25px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.skillBar {
+    width: 0;
+    height: 25px;
+    background-color: #1f3c88;
+    border-radius: 5px;
+}
+
+#socialLink {
+    color: #1f3c88;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+/* Dark theme */
+.dark-theme {
+    background-color: #222;
+    color: white;
+}
+
+.dark-theme .section {
+    background-color: #333;
+    color: white;
+}
+
+.dark-theme header {
+    background-color: #444;
+}
+
+.dark-theme h1,
+.dark-theme h2 {
+    color: #93c5fd;
+}
+
+.dark-theme .slideContent {
+    background-color: #444;
+}
+
+.dark-theme .slideTitle {
+    background-color: #555;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .section {
+        padding: 15px;
+    }
+
+    .gallery {
+        flex-direction: column;
+    }
+
+    .image-box {
+        width: 100%;
+    }
+
+    .gallery img {
+        height: 200px;
+    }
+
+    input {
+        max-width: 100%;
+    }
+}
