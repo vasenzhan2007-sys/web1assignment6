@@ -83,5 +83,7 @@ Screenshot:
 In this assignment, I practiced jQuery selectors, effects, DOM manipulation, events, attributes, form interaction, and animations.
 
 ## Github
+https://github.com/vasenzhan2007-sys/web1assignment6.git
 
 ## Link to the website
+https://vasenzhan2007-sys.github.io/web1assignment6/
